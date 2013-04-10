@@ -1,4 +1,4 @@
-﻿# Windows Azure Training Kit #
+﻿# Windows Phone 8 Training Kit #
 
 ## Presentations ##
 
@@ -6,7 +6,7 @@
 
 Presentations are a set of resources you can use for learning Windows Phone 8 capabilities or to present Windows Phone 8 features to an audience at a conference.
 
->**Note:** You can download the latest build of the Windows Phone 8 Training Kit which includes a tested version of this Presentation here: {training kit download link}.
+>**Note:** You can download the latest build of the Windows Phone 8 Training Kit which includes a tested version of this Presentation here: http://go.microsoft.com/fwlink/?LinkID=294667.
 
 Visit our [GitHub Organization Page](https://github.com/WindowsPhone-8-TrainingKit) for more information about the **Windows Azure Training Kit**.
 
