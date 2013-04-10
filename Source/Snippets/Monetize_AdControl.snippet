@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Check for Trial Mode, add AdControl (No Testing Code)</Title>
+      <Author>Matthias Shapiro</Author>
+      <Description>Check for Trial Mode, add AdControl (No Testing Code)</Description>
+      <HelpUrl></HelpUrl>
+      <Shortcut>Monetize_AdControl</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[LicenseInformation info = new LicenseInformation();
+
+            if (info.IsTrial())
+            {
+                // running in trial mode
+                AdControl ac = new AdControl("012345", "01234567-1234-1234-1234-0123456789012", true);
+                ac.Width = 480;
+                ac.Height = 80;
+
+                AdControlHolder.Child = ac;
+            }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
